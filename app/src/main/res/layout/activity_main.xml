@@ -107,13 +107,10 @@ xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+               style="@style/font_work"
                 android:hint="Мобильный телефон"
                 android:inputType="phone"
                 android:text="89535094047"
-                android:textColorHint="@color/grey"
-                android:fontFamily="sans-serif-condensed"
                 android:focusable="false"
                 android:id="@+id/phone"/>
         </android.support.design.widget.TextInputLayout>
@@ -152,13 +149,10 @@ xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/font_work"
                     android:hint="Электронная почта"
                     android:inputType="textEmailAddress"
                     android:text="rom1145@yandex.ru"
-                    android:textColorHint="@color/grey"
-                    android:fontFamily="sans-serif-condensed"
                     android:focusable="false"
                     android:id="@+id/email"/>
             </android.support.design.widget.TextInputLayout>
@@ -196,13 +190,10 @@ xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:hint="Профиль VK"
                     android:inputType="text"
                     android:text="https://vk.com/id56905274"
-                    android:textColorHint="@color/grey"
-                    android:fontFamily="sans-serif-condensed"
+                    style="@style/font_work"
                     android:focusable="false"
                     android:id="@+id/vk"/>
             </android.support.design.widget.TextInputLayout>
@@ -240,13 +231,10 @@ xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/font_work"
                     android:hint="Репозиторий"
                     android:inputType="textMultiLine"
                     android:text="github.com/romano1145/DevIntensive"
-                    android:textColorHint="@color/grey"
-                    android:fontFamily="sans-serif-condensed"
                     android:focusable="false"
                     android:id="@+id/git"/>
             </android.support.design.widget.TextInputLayout>
@@ -284,11 +272,9 @@ xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/font_work"
                     android:hint="О себе"
                     android:inputType="textMultiLine"
-                    android:textColorHint="@color/grey"
                     android:fontFamily="sans-serif-condensed"
                     android:text="Обе стороны моей натуры обладали общей памятью."
                     android:id="@+id/about"/>
