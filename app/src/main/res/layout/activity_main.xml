@@ -14,36 +14,25 @@ xmlns:tools="http://schemas.android.com/tools"
         android:background="@color/grey">
 
         <LinearLayout
+            style="@style/head"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:orientation="vertical"
-            android:layout_marginTop="28dp"
-            android:layout_marginBottom="28dp">
+            android:layout_weight="0.10">
 
             <TextView
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:text="5"
-                android:layout_gravity="center_horizontal"
-                android:textSize="26dp"
-                android:textColor="@color/white"
-                android:layout_marginTop="8dp"
-                android:fontFamily="sans-serif-condensed"/>
+                style="@style/text_head_big"/>
             <TextView
                 android:layout_width="54dp"
                 android:layout_height="wrap_content"
                 android:text="Рейтинг"
-                android:layout_gravity="center"
-                android:textSize="14dp"
-                android:textColor="@color/white"
-                android:fontFamily="sans-serif-condensed"/>
+                style="@style/text_head_small"/>
 
             <View
-                android:layout_width="2dp"
-                android:layout_height="80dp"
-                android:background="@color/grey_light"
-                android:layout_marginLeft="124dp"
+                style="@style/line"
+                android:layout_marginLeft="122dp"
                 android:layout_marginTop="-60dp"/>
 
         </LinearLayout>
@@ -51,61 +40,43 @@ xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:orientation="vertical"
-            android:layout_marginTop="28dp"
-            android:layout_marginBottom="28dp">
+            style="@style/head">
 
             <TextView
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:text="5"
-                android:layout_gravity="center_horizontal"
-                android:textSize="26dp"
-                android:textColor="@color/white"
-                android:layout_marginTop="8dp"
-                android:fontFamily="sans-serif-condensed"/>
+                style="@style/text_head_big"/>
             <TextView
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:text="Написано строк кода"
-                android:layout_gravity="center"
-                android:textSize="14dp"
-                android:textColor="@color/white"
-                android:fontFamily="sans-serif-condensed"/>
+                style="@style/text_head_small"
+                />
 
             <View
-                android:layout_width="2dp"
-                android:layout_height="80dp"
-                android:background="@color/grey_light"
-                android:layout_marginLeft="146dp"
-                android:layout_marginTop="-60dp"/>
+               style="@style/line"
+                android:layout_marginTop="-60dp"
+                android:layout_marginLeft="146dp"/>
 
         </LinearLayout>
         <LinearLayout
+            style="@style/head"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.25"
-            android:orientation="vertical"
-            android:layout_marginTop="28dp"
-            android:layout_marginBottom="28dp">
+            >
 
             <TextView
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:text="5"
-                android:layout_gravity="center_horizontal"
-                android:textSize="26dp"
-                android:textColor="@color/white"
-                android:layout_marginTop="8dp"
-                android:fontFamily="sans-serif-condensed"/>
+                style="@style/text_head_big"/>
             <TextView
                 android:layout_width="72dp"
                 android:layout_height="wrap_content"
                 android:text="Проектов"
-                android:layout_gravity="center"
-                android:textSize="14dp"
-                android:textColor="@color/white"
-                android:fontFamily="sans-serif-condensed"/>
+                style="@style/text_head_small"/>
 
         </LinearLayout>
     </LinearLayout>
